@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cursed Hoard — Asset Foundry</title>
+<style>
+  :root{
+    --ik0:#050309; --ik1:#08040e; --ik2:#0f0a18; --ik3:#15101f; --ik4:#221934; --ik5:#3a2e4c; --ik6:#574a6b;
+    --bone:#dccdaa; --bone-dim:#c4b48e; --bone-mute:#675945;
+    --gold:#c49a38; --gold-hi:#dcba54; --rock:#5c574e;
+    --moss:#4c702e; --lava:#e23820; --mana:#3a74b0;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(120% 80% at 50% -10%, #1c1430 0%, var(--ik3) 38%, var(--ik1) 78%, var(--ik0) 100%);
+    color:var(--bone);
+    font-family:'Trebuchet MS','Segoe UI',system-ui,sans-serif;
+    min-height:100vh;
+    padding:0 0 120px;
+  }
+  .mono{font-family:'DejaVu Sans Mono','Consolas',ui-monospace,monospace;}
+
+  /* ---- masthead ---- */
+  header.mast{
+    padding:54px 40px 38px; text-align:center;
+    border-bottom:1px solid var(--ik4);
+    background:linear-gradient(180deg, rgba(74,58,92,.18), transparent);
+  }
+  .crest{
+    font-size:12px; letter-spacing:.42em; text-transform:uppercase;
+    color:var(--gold); margin-bottom:18px;
+  }
+  h1.title{
+    margin:0; font-size:52px; letter-spacing:.04em; font-weight:800;
+    color:var(--bone);
+    text-shadow:0 2px 0 var(--ik0), 0 0 28px rgba(160,80,200,.25);
+  }
+  h1.title b{color:var(--gold-hi);}
+  .sub{margin:16px auto 0; max-width:680px; color:var(--bone-dim); font-size:15px; line-height:1.6;}
+  .stats{
+    margin-top:24px; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;
+  }
+  .pill{
+    font-size:12px; letter-spacing:.06em; padding:7px 14px; border-radius:3px;
+    background:var(--ik4); border:1px solid var(--ik5); color:var(--bone-dim);
+    box-shadow:0 2px 0 var(--ik0);
+  }
+  .pill b{color:var(--gold);}
+
+  /* ---- sections ---- */
+  main{max-width:1320px; margin:0 auto; padding:0 32px;}
+  section.group{margin-top:56px;}
+  .ghead{display:flex; align-items:baseline; gap:16px; border-bottom:1px solid var(--ik4); padding-bottom:12px;}
+  .ghead h2{
+    margin:0; font-size:24px; color:var(--gold); letter-spacing:.06em; font-weight:700;
+  }
+  .ghead .count{font-size:12px; color:var(--bone-mute);}
+  .gblurb{margin:12px 0 0; color:var(--bone-dim); font-size:13.5px; max-width:900px; line-height:1.6;}
+
+  .grid{
+    margin-top:22px; display:grid; gap:18px;
+    grid-template-columns:repeat(auto-fill,minmax(168px,1fr));
+  }
+  /* carved-stone block (D-07/D-16) */
+  .card{
+    background:linear-gradient(180deg, var(--ik5) 0%, var(--ik4) 100%);
+    border-top:1px solid var(--ik6);
+    border-radius:5px;
+    padding:12px 12px 10px;
+    box-shadow:0 6px 0 var(--ik0), 0 10px 18px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.05);
+    display:flex; flex-direction:column; align-items:center;
+  }
+  .stage{
+    width:100%; height:148px;
+    display:flex; align-items:center; justify-content:center;
+    border-radius:3px;
+    background:
+      linear-gradient(45deg,#0b0714 25%,transparent 25%,transparent 75%,#0b0714 75%) 0 0/16px 16px,
+      linear-gradient(45deg,#0b0714 25%,#100a1c 25%,#100a1c 75%,#0b0714 75%) 8px 8px/16px 16px;
+    background-color:#100a1c;
+    box-shadow:inset 0 0 0 1px var(--ik1), inset 0 2px 10px rgba(0,0,0,.6);
+    overflow:hidden;
+  }
+  .stage canvas{filter:drop-shadow(0 3px 2px rgba(0,0,0,.5));}
+  .label{margin-top:11px; font-size:11.5px; color:var(--bone); text-align:center; word-break:break-word; line-height:1.3;}
+  .meta{margin-top:4px; font-size:10px; color:var(--bone-mute); letter-spacing:.04em;}
+
+  /* ---- palette board ---- */
+  .palboard{margin-top:22px; display:flex; flex-direction:column; gap:7px;}
+  .famrow{display:flex; align-items:center; gap:10px;}
+  .famname{width:120px; flex:none; font-size:11px; color:var(--bone-dim); text-align:right;}
+  .ramp{display:flex; gap:0; border:1px solid var(--ik1); border-radius:3px; overflow:hidden; box-shadow:0 2px 0 var(--ik0);}
+  .sw{width:34px; height:30px; position:relative;}
+  .sw .code{
+    position:absolute; inset:0; display:flex; align-items:flex-end; justify-content:center;
+    font-size:8px; font-family:ui-monospace,monospace; padding-bottom:2px;
+    opacity:0; transition:opacity .12s; color:#fff; text-shadow:0 1px 1px #000;
+  }
+  .sw:hover .code{opacity:1;}
+  footer{margin:80px auto 0; text-align:center; color:var(--bone-mute); font-size:12px; max-width:760px; line-height:1.7; padding:0 32px;}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="crest">The King &amp; The Queen · Defend the Hoard</div>
+  <h1 class="title">CURSED <b>HOARD</b></h1>
+  <div class="sub">Sprite Foundry — 100% from-scratch indexed pixel art at <b>2× cell density</b> (D-21: 64 px source per 32 px logical cell — towers 64×128, actors/terrain/gems 64×64, icons 48×48), ink-line gothic, authored as ASCII grids against one shared master palette. Live-rendered on the gothic-night stage.</div>
+  <div class="stats" id="stats"></div>
+</header>
+
+<main>
+  <section class="group" id="palette-group">
+    <div class="ghead"><h2>Master Palette</h2><span class="count" id="pal-count"></span></div>
+    <p class="gblurb">One shared indexed palette — every sprite samples only these codes, so the whole game reads as one cursed world. Ramps run dark → light; shadows cool toward void-purple, highlights warm. Hover a swatch for its code. <span class="mono" style="color:var(--bone-dim)">(author by CODE, never hex)</span></p>
+    <div class="palboard" id="palboard"></div>
+  </section>
+  <div id="sprite-sections"></div>
+</main>
+
+<footer id="footer"></footer>
+
+<script type="module">
+import { PALETTE, FAMILIES, COUNT } from './assets/data/palette.js';
+import { spriteCanvas, fitScale } from './assets/render.js';
+
+// ---------- palette board ----------
+const palboard = document.getElementById('palboard');
+for (const [fam, name] of FAMILIES) {
+  const codes = Object.keys(PALETTE).filter(c => c.startsWith(fam)).sort();
+  const row = document.createElement('div'); row.className = 'famrow';
+  const nm = document.createElement('div'); nm.className = 'famname'; nm.textContent = name;
+  const ramp = document.createElement('div'); ramp.className = 'ramp';
+  for (const code of codes) {
+    const sw = document.createElement('div'); sw.className = 'sw';
+    sw.style.background = PALETTE[code];
+    const lab = document.createElement('span'); lab.className = 'code mono'; lab.textContent = code;
+    sw.appendChild(lab); ramp.appendChild(sw);
+  }
+  row.appendChild(nm); row.appendChild(ramp); palboard.appendChild(row);
+}
+document.getElementById('pal-count').textContent = COUNT + ' indexed colours · 29 families';
+
+// ---------- modules manifest (batches drop in here) ----------
+const MODULES = ['towers_full','troops_w1','troops_w2','troops_w3','troops_w4','troops_w5','projectiles','fx','fx_abilities','enchants','terrain','obstacles','buildings','gems','particles','icons','ui_chrome','backgrounds','worldmap','maps','additional/obelisk'];
+const ISSUES = [];
+
+let totalSprites = 0;
+const sections = document.getElementById('sprite-sections');
+
+for (const name of MODULES) {
+  let mod;
+  try { mod = await import(`./assets/data/${name}.js`); }
+  catch (e) { console.error('module failed', name, e); continue; }
+  const { META = {}, LEGEND = {}, SPRITES = {} } = mod;
+  const keys = Object.keys(SPRITES);
+  if (!keys.length) continue;
+
+  const sec = document.createElement('section'); sec.className = 'group';
+  const head = document.createElement('div'); head.className = 'ghead';
+  head.innerHTML = `<h2>${META.group || name}</h2><span class="count">${keys.length} sprites</span>`;
+  sec.appendChild(head);
+  if (META.blurb) { const b = document.createElement('p'); b.className = 'gblurb'; b.textContent = META.blurb; sec.appendChild(b); }
+
+  const grid = document.createElement('div'); grid.className = 'grid';
+  for (const key of keys) {
+    const sp = SPRITES[key];
+    // validate: every char resolves through the legend (space = transparent)
+    sp.frames.forEach((f, fi) => f.forEach((row, ri) => {
+      for (const ch of row) {
+        if (ch === ' ') continue;
+        if (!(ch in LEGEND)) ISSUES.push(`${key} f${fi} r${ri}: unknown char ${JSON.stringify(ch)}`);
+        else { const code = LEGEND[ch]; if (code != null && !(code in PALETTE)) ISSUES.push(`${key}: bad code ${code}`); }
+      }
+    }));
+    const card = document.createElement('div'); card.className = 'card';
+    const stage = document.createElement('div'); stage.className = 'stage';
+    const f0 = sp.frames[0];
+    const scale = fitScale(f0, 116);
+    const cv = spriteCanvas(sp, LEGEND, { scale });
+    stage.appendChild(cv);
+    const label = document.createElement('div'); label.className = 'label mono'; label.textContent = key;
+    const meta = document.createElement('div'); meta.className = 'meta mono';
+    const dims = `${f0[0].length}×${f0.length}`;
+    meta.textContent = `${sp.frames.length}f · ${sp.fps||6}fps · ${dims}${sp.loop===false?' · once':''}`;
+    card.appendChild(stage); card.appendChild(label); card.appendChild(meta);
+    grid.appendChild(card);
+    totalSprites++;
+  }
+  sec.appendChild(grid);
+  sections.appendChild(sec);
+}
+
+// ---------- stats ----------
+document.getElementById('stats').innerHTML =
+  `<span class="pill"><b>${COUNT}</b> palette colours</span>` +
+  `<span class="pill"><b>${totalSprites}</b> sprites rendered</span>` +
+  `<span class="pill"><b>${MODULES.length}</b> data modules</span>`;
+
+document.getElementById('footer').innerHTML =
+  'Cursed Hoard Asset Foundry · indexed ASCII pixel grids in <span class="mono">assets/data/*.js</span>, ' +
+  'resolved through the shared master palette and animated on the gothic-night stage. ' +
+  'Every sprite maps to an INVENTORY consumer (100% utilisation gate).';
+
+window.__issues = ISSUES;
+window.__count = { sprites: totalSprites, palette: COUNT, modules: MODULES.length };
+if (ISSUES.length) console.warn('VALIDATION ISSUES', ISSUES);
+else console.log('validation clean ·', totalSprites, 'sprites');
+</script>
+</body>
+</html>

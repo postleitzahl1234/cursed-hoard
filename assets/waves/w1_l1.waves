@@ -1,0 +1,27 @@
+# Cursed Hoard authored waves v1
+version 1
+waves 5
+
+wave 1 scalar 1.0
+PEASANT 5 0.9
+end
+
+wave 2 scalar 1.0
+GUARD 7 0.83
+OUTRIDER 3 1.0799999
+end
+
+wave 3 scalar 1.0
+OUTRIDER 9 0.76
+KNIGHT 4 1.01
+end
+
+wave 4 scalar 1.0
+KNIGHT 11 0.68999994
+PAVISE_GUARD 5 0.93999994
+end
+
+wave 5 scalar 1.0
+PALADIN 13 0.62
+PAVISE_GUARD 6 0.87
+end

@@ -1,0 +1,391 @@
+name w3_l3
+base tile_sand_base
+c 2 0 t tile_sand_base_alt
+c 7 0 t tile_sand_base_alt
+c 14 0 t tile_sand_base_alt
+c 26 0 t tile_sand_base_alt
+c 27 0 t tile_orange_dune_base
+c 28 0 t tile_orange_dune_base
+c 29 0 t tile_orange_dune_base
+c 30 0 t tile_orange_dune_base_alt
+c 31 0 t tile_orange_dune_base_alt
+c 32 0 t tile_orange_dune_base_alt
+c 33 0 t tile_orange_dune_base_alt
+c 34 0 t tile_orange_dune_base_alt
+c 35 0 t tile_orange_dune_base_alt
+c 36 0 t tile_orange_dune_base
+c 37 0 t tile_orange_dune_base_alt
+c 38 0 t tile_orange_dune_base
+c 39 0 t tile_orange_dune_base
+c 1 1 t tile_sand_base_alt
+c 2 1 t tile_sand_base d bld_gold_mine_t3
+c 11 1 t tile_sand_base_alt
+c 16 1 t tile_sand_base_alt
+c 25 1 t tile_orange_dune_base
+c 27 1 t tile_orange_dune_base_alt
+c 28 1 t tile_orange_dune_base_alt
+c 29 1 t tile_orange_dune_base
+c 30 1 t tile_orange_dune_base_alt
+c 31 1 t tile_orange_dune_base_alt
+c 32 1 t tile_orange_dune_base
+c 33 1 t tile_orange_dune_base
+c 34 1 t tile_orange_dune_base_alt
+c 35 1 t tile_orange_dune_base
+c 36 1 t tile_orange_dune_base
+c 37 1 t tile_orange_dune_base_alt
+c 38 1 t tile_orange_dune_base
+c 39 1 t tile_orange_dune_base_alt
+c 4 2 t tile_sand_cracked
+c 8 2 t tile_sand_base d bld_sand_palm_spring
+c 18 2 t tile_sand_cracked
+c 19 2 t tile_sand_base d bld_sand_palm_spring
+c 20 2 t tile_sand_base_alt
+c 28 2 t tile_orange_dune_base_alt
+c 29 2 t tile_orange_dune_base_alt
+c 30 2 t tile_orange_dune_base
+c 31 2 t tile_orange_dune_base
+c 32 2 t tile_orange_dune_base
+c 33 2 t tile_orange_dune_base
+c 34 2 t tile_orange_dune_base_alt
+c 35 2 t tile_orange_dune_base
+c 36 2 t tile_orange_dune_base
+c 37 2 t tile_orange_dune_base
+c 38 2 t tile_orange_dune_base
+c 39 2 t tile_orange_dune_base_alt
+c 4 3 t tile_sand_cracked
+c 12 3 t tile_sand_cracked
+c 13 3 t tile_sand_base d obstacle_bush_bramble
+c 15 3 t tile_sand_base d obstacle_bush_bramble
+c 22 3 t tile_sand_cracked
+c 27 3 t tile_orange_dune_base
+c 28 3 t tile_orange_dune_base
+c 29 3 t tile_orange_dune_base_alt
+c 30 3 t tile_orange_dune_base
+c 31 3 t tile_orange_dune_base
+c 32 3 t tile_orange_dune_base_alt
+c 33 3 t tile_orange_dune_base
+c 34 3 t tile_orange_dune_base
+c 35 3 t tile_orange_dune_base_alt
+c 36 3 t tile_orange_dune_base
+c 37 3 t tile_orange_dune_base
+c 38 3 t tile_orange_dune_base
+c 39 3 t tile_orange_dune_base_alt
+c 0 4 t tile_sand_path o SPAWN
+c 1 4 t tile_sand_path o PATH
+c 2 4 t tile_sand_path o PATH
+c 3 4 t tile_sand_path o PATH
+c 4 4 t tile_sand_path o PATH
+c 5 4 t tile_sand_path o PATH
+c 6 4 t tile_sand_path o PATH
+c 7 4 t tile_sand_path o PATH
+c 8 4 t tile_sand_path o PATH
+c 9 4 t tile_sand_path o PATH
+c 10 4 t tile_sand_path o PATH
+c 11 4 t tile_sand_path o PATH
+c 12 4 t tile_sand_path o PATH
+c 13 4 t tile_sand_path o PATH
+c 14 4 t tile_sand_path o PATH
+c 15 4 t tile_sand_path o PATH
+c 16 4 t tile_sand_path o PATH
+c 17 4 t tile_sand_path o PATH
+c 18 4 t tile_sand_path o PATH
+c 19 4 t tile_sand_path o PATH
+c 20 4 t tile_sand_path o PATH
+c 21 4 t tile_sand_path o PATH
+c 22 4 t tile_sand_path o PATH
+c 23 4 t tile_sand_path o PATH
+c 24 4 t tile_sand_path o PATH
+c 25 4 t tile_sand_path o PATH
+c 26 4 t tile_sand_path o PATH
+c 30 4 t tile_orange_dune_base
+c 31 4 t tile_orange_dune_base_alt
+c 32 4 t tile_orange_dune_base_alt
+c 33 4 t tile_orange_dune_base_alt
+c 34 4 t tile_orange_dune_base
+c 35 4 t tile_orange_dune_base_alt
+c 36 4 t tile_orange_dune_base
+c 37 4 t tile_orange_dune_base_alt
+c 38 4 t tile_orange_dune_base_alt
+c 39 4 t tile_orange_dune_base
+c 0 5 t tile_sand_path o PATH
+c 1 5 t tile_sand_path o PATH
+c 2 5 t tile_sand_path o PATH
+c 3 5 t tile_sand_path o PATH
+c 4 5 t tile_sand_path o PATH
+c 5 5 t tile_sand_path o PATH
+c 6 5 t tile_sand_path o PATH
+c 7 5 t tile_sand_path o PATH
+c 8 5 t tile_sand_path o PATH
+c 9 5 t tile_sand_path o PATH
+c 10 5 t tile_sand_path o PATH
+c 11 5 t tile_sand_path o PATH
+c 12 5 t tile_sand_path o PATH
+c 13 5 t tile_sand_path o PATH
+c 14 5 t tile_sand_path o PATH
+c 15 5 t tile_sand_path o PATH
+c 16 5 t tile_sand_path o PATH
+c 17 5 t tile_sand_path o PATH
+c 18 5 t tile_sand_path o PATH
+c 19 5 t tile_sand_path o PATH
+c 20 5 t tile_sand_path o PATH
+c 21 5 t tile_sand_path o PATH
+c 22 5 t tile_sand_path o PATH
+c 23 5 t tile_sand_path o PATH
+c 24 5 t tile_sand_path o PATH
+c 25 5 t tile_sand_path o PATH
+c 26 5 t tile_sand_path o PATH
+c 31 5 t tile_orange_dune_base_alt
+c 32 5 t tile_orange_dune_base
+c 33 5 t tile_orange_dune_base
+c 34 5 t tile_orange_dune_base_alt
+c 35 5 t tile_orange_dune_base_alt
+c 36 5 t tile_orange_dune_base
+c 37 5 t tile_orange_dune_base_alt
+c 38 5 t tile_orange_dune_base
+c 39 5 t tile_orange_dune_base_alt
+c 16 6 t tile_sand_oasis_water
+c 20 6 t tile_sand_base d obstacle_tree_palm
+c 24 6 t tile_sand_base_alt
+c 25 6 t tile_sand_path o PATH
+c 26 6 t tile_sand_path o PATH
+c 31 6 t tile_orange_dune_base
+c 32 6 t tile_orange_dune_base
+c 33 6 t tile_orange_dune_base_alt
+c 34 6 t tile_orange_dune_base_alt
+c 35 6 t tile_orange_dune_base_alt
+c 36 6 t tile_orange_dune_base_alt
+c 37 6 t tile_orange_dune_base_alt
+c 38 6 t tile_orange_dune_base
+c 39 6 t tile_orange_dune_base_alt
+c 5 7 t tile_sand_base d obstacle_tree_palm
+c 12 7 t tile_sand_cracked
+c 14 7 t tile_sand_oasis_water
+c 15 7 t tile_sand_oasis_water
+c 16 7 t tile_sand_oasis_water
+c 21 7 t tile_sand_base_alt d obstacle_tree_palm
+c 22 7 t tile_sand_base d obstacle_tree_palm
+c 25 7 t tile_sand_path o PATH
+c 26 7 t tile_sand_path o PATH
+c 27 7 t tile_sand_cracked
+c 33 7 t tile_orange_dune_base_alt
+c 34 7 t tile_orange_dune_base
+c 35 7 t tile_orange_dune_base
+c 36 7 t tile_orange_dune_base_alt
+c 37 7 t tile_orange_dune_base
+c 38 7 t tile_orange_dune_base
+c 39 7 t tile_orange_dune_base
+c 0 8 t tile_sand_cracked
+c 7 8 t tile_sand_base_alt d bld_mana_well_t1
+c 15 8 t tile_sand_oasis_water
+c 16 8 t tile_sand_oasis_water
+c 17 8 t tile_sand_oasis_water
+c 18 8 t tile_sand_oasis_water
+c 23 8 t tile_sand_base d obstacle_bush_bramble
+c 24 8 t tile_sand_cracked
+c 25 8 t tile_sand_path o PATH
+c 26 8 t tile_sand_path o PATH
+c 28 8 t tile_sand_base d obstacle_bush_bramble
+c 34 8 t tile_orange_dune_base_alt
+c 35 8 t tile_orange_dune_base
+c 36 8 t tile_orange_dune_base_alt
+c 37 8 t tile_orange_dune_base_alt
+c 38 8 t tile_orange_dune_base_alt
+c 39 8 t tile_orange_dune_base
+c 1 9 t tile_sand_base d obstacle_tree_palm
+c 8 9 t tile_sand_cracked
+c 9 9 t tile_sand_base d obstacle_tree_palm
+c 12 9 t tile_sand_base d obstacle_tree_palm
+c 14 9 t tile_sand_oasis_water
+c 15 9 t tile_sand_oasis_water
+c 16 9 t tile_sand_oasis_water
+c 17 9 t tile_sand_oasis_water
+c 18 9 t tile_sand_oasis_water
+c 19 9 t tile_sand_oasis_water
+c 24 9 t tile_sand_base d obstacle_bush_bramble
+c 25 9 t tile_sand_path o PATH
+c 26 9 t tile_sand_path o PATH
+c 34 9 t tile_orange_dune_base_alt
+c 35 9 t tile_orange_dune_base_alt
+c 36 9 t tile_orange_dune_base
+c 37 9 t tile_orange_dune_base
+c 38 9 t tile_orange_dune_base
+c 39 9 t tile_orange_dune_base_alt
+c 3 10 t tile_sand_base_alt
+c 4 10 t tile_sand_cracked
+c 10 10 t tile_sand_base_alt
+c 13 10 t tile_sand_base d obstacle_tree_palm
+c 14 10 t tile_sand_oasis_water
+c 15 10 t tile_sand_oasis_water
+c 16 10 t tile_sand_oasis_water
+c 17 10 t tile_sand_oasis_water
+c 19 10 t tile_sand_oasis_water
+c 24 10 t tile_sand_base d obstacle_tree_palm
+c 25 10 t tile_sand_path o PATH
+c 26 10 t tile_sand_path o PATH
+c 27 10 t tile_sand_base_alt
+c 34 10 t tile_orange_dune_base
+c 35 10 t tile_orange_dune_base_alt
+c 36 10 t tile_orange_dune_base_alt
+c 37 10 t tile_orange_dune_base
+c 38 10 t tile_orange_dune_base_alt
+c 39 10 t tile_orange_dune_base_alt
+c 1 11 t tile_sand_cracked
+c 2 11 t tile_sand_cracked
+c 8 11 t tile_sand_cracked
+c 10 11 t tile_sand_base d obstacle_tree_palm
+c 13 11 t tile_sand_base d obstacle_bush_bramble
+c 14 11 t tile_sand_oasis_water
+c 15 11 t tile_sand_oasis_water
+c 16 11 t tile_sand_oasis_water
+c 17 11 t tile_sand_oasis_water
+c 22 11 t tile_sand_base d bld_sand_palm_spring
+c 25 11 t tile_sand_path o PATH
+c 26 11 t tile_sand_path o PATH
+c 28 11 t tile_sand_cracked
+c 38 11 t tile_orange_dune_base
+c 39 11 t tile_orange_dune_base
+c 3 12 t tile_sand_cracked
+c 11 12 t tile_sand_base d obstacle_tree_palm
+c 12 12 t tile_sand_base_alt
+c 13 12 t tile_sand_base d obstacle_bush_bramble
+c 15 12 t tile_sand_base d obstacle_bush_bramble
+c 16 12 t tile_sand_oasis_water
+c 25 12 t tile_sand_path o PATH
+c 26 12 t tile_sand_path o PATH
+c 32 12 t tile_sand_cracked
+c 35 12 t tile_sand_cracked
+c 36 12 t tile_orange_dune_base_alt
+c 38 12 t tile_orange_dune_base
+c 4 13 t tile_sand_base_alt
+c 8 13 t tile_sand_cracked
+c 10 13 t tile_sand_path o PATH
+c 11 13 t tile_sand_path o PATH
+c 12 13 t tile_sand_path o PATH
+c 13 13 t tile_sand_path o PATH
+c 14 13 t tile_sand_path o PATH
+c 15 13 t tile_sand_path o PATH
+c 16 13 t tile_sand_path o PATH
+c 17 13 t tile_sand_path o PATH
+c 18 13 t tile_sand_path o PATH
+c 19 13 t tile_sand_path o PATH
+c 20 13 t tile_sand_path o PATH
+c 21 13 t tile_sand_path o PATH
+c 22 13 t tile_sand_path o PATH
+c 23 13 t tile_sand_path o PATH
+c 24 13 t tile_sand_path o PATH
+c 25 13 t tile_sand_path o PATH
+c 26 13 t tile_sand_path o PATH
+c 28 13 t tile_sand_base_alt
+c 39 13 t tile_orange_dune_base
+c 10 14 t tile_sand_path o PATH
+c 11 14 t tile_sand_path o PATH
+c 12 14 t tile_sand_path o PATH
+c 13 14 t tile_sand_path o PATH
+c 14 14 t tile_sand_path o PATH
+c 15 14 t tile_sand_path o PATH
+c 16 14 t tile_sand_path o PATH
+c 17 14 t tile_sand_path o PATH
+c 18 14 t tile_sand_path o PATH
+c 19 14 t tile_sand_path o PATH
+c 20 14 t tile_sand_path o PATH
+c 21 14 t tile_sand_path o PATH
+c 22 14 t tile_sand_path o PATH
+c 23 14 t tile_sand_path o PATH
+c 24 14 t tile_sand_path o PATH
+c 25 14 t tile_sand_path o PATH
+c 26 14 t tile_sand_path o PATH
+c 29 14 t tile_sand_base_alt
+c 33 14 t tile_sand_cracked
+c 1 15 t tile_sand_base_alt
+c 10 15 t tile_sand_path o PATH
+c 11 15 t tile_sand_path o PATH
+c 12 15 t tile_sand_base d obstacle_bush_bramble
+c 15 15 t tile_sand_base d bld_sand_stronghold
+c 16 15 t tile_sand_cracked
+c 17 15 t tile_sand_base_alt
+c 20 15 t tile_sand_cracked
+c 21 15 t tile_sand_cracked
+c 22 15 t tile_sand_base d bld_sand_stronghold
+c 30 15 t tile_sand_base_alt
+c 33 15 t tile_sand_base_alt
+c 35 15 t tile_sand_cracked
+c 10 16 t tile_sand_path o PATH
+c 11 16 t tile_sand_path o PATH
+c 12 16 t tile_sand_base d obstacle_tree_palm
+c 16 16 t tile_sand_base_alt
+c 18 16 t tile_sand_base d obstacle_bush_bramble
+c 21 16 t tile_sand_cracked
+c 24 16 t tile_sand_base_alt
+c 32 16 t tile_sand_base_alt
+c 34 16 t tile_sand_base_alt
+c 36 16 t tile_sand_cracked
+c 38 16 t tile_sand_cracked
+c 39 16 t tile_sand_base_alt
+c 4 17 t tile_sand_base_alt
+c 10 17 t tile_sand_path o PATH
+c 11 17 t tile_sand_path o PATH
+c 12 17 t tile_sand_path o PATH
+c 13 17 t tile_sand_path o PATH
+c 14 17 t tile_sand_path o PATH
+c 15 17 t tile_sand_path o PATH
+c 16 17 t tile_sand_path o PATH
+c 17 17 t tile_sand_path o PATH
+c 18 17 t tile_sand_path o PATH
+c 19 17 t tile_sand_path o PATH
+c 20 17 t tile_sand_path o PATH
+c 21 17 t tile_sand_path o PATH
+c 22 17 t tile_sand_path o PATH
+c 23 17 t tile_sand_path o PATH
+c 24 17 t tile_sand_path o PATH
+c 25 17 t tile_sand_path o PATH
+c 26 17 t tile_sand_path o PATH
+c 27 17 t tile_sand_path o PATH
+c 28 17 t tile_sand_path o PATH
+c 29 17 t tile_sand_path o PATH
+c 30 17 t tile_sand_path o PATH
+c 31 17 t tile_sand_path o PATH
+c 32 17 t tile_sand_path o PATH
+c 33 17 t tile_sand_path o CAVE
+c 35 17 t tile_sand_base_alt
+c 10 18 t tile_sand_path o PATH
+c 11 18 t tile_sand_path o PATH
+c 12 18 t tile_sand_path o PATH
+c 13 18 t tile_sand_path o PATH
+c 14 18 t tile_sand_path o PATH
+c 15 18 t tile_sand_path o PATH
+c 16 18 t tile_sand_path o PATH
+c 17 18 t tile_sand_path o PATH
+c 18 18 t tile_sand_path o PATH
+c 19 18 t tile_sand_path o PATH
+c 20 18 t tile_sand_path o PATH
+c 21 18 t tile_sand_path o PATH
+c 22 18 t tile_sand_path o PATH
+c 23 18 t tile_sand_path o PATH
+c 24 18 t tile_sand_path o PATH
+c 25 18 t tile_sand_path o PATH
+c 26 18 t tile_sand_path o PATH
+c 27 18 t tile_sand_path o PATH
+c 28 18 t tile_sand_path o PATH
+c 29 18 t tile_sand_path o PATH
+c 30 18 t tile_sand_path o PATH
+c 31 18 t tile_sand_path o PATH
+c 32 18 t tile_sand_path o PATH
+c 33 18 t tile_sand_path o PATH
+c 39 18 t tile_sand_cracked
+c 11 19 t tile_sand_base d bld_sand_stronghold
+c 12 19 t tile_sand_base_alt
+c 13 19 t tile_sand_base_alt
+c 15 19 t tile_sand_cracked
+c 23 19 t tile_sand_cracked
+c 35 19 t tile_sand_cracked
+c 13 20 t tile_sand_base_alt
+c 15 20 t tile_sand_cracked
+c 17 20 t tile_sand_base_alt
+c 22 20 t tile_sand_base_alt d obstacle_bush_bramble
+c 29 20 t tile_sand_base_alt
+c 33 20 t tile_sand_cracked
+c 39 20 t tile_sand_base_alt
+c 1 21 t tile_sand_base_alt
+c 3 21 t tile_sand_cracked
+c 4 21 t tile_sand_cracked
+c 13 21 t tile_sand_cracked

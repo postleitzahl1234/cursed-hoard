@@ -1,0 +1,55 @@
+# Cursed Hoard authored waves v1
+version 1
+waves 9
+
+wave 1 scalar 1.0
+PEASANT 13 0.7
+end
+
+wave 2 scalar 1.0
+GUARD 15 0.63
+OUTRIDER 7 0.88
+end
+
+wave 3 scalar 1.0
+GUARD 17 0.56
+BANNER_SERGEANT 8 0.81
+end
+
+wave 4 scalar 1.0
+BANNER_SERGEANT 19 0.48999995
+KNIGHT 9 0.73999995
+end
+
+wave 5 scalar 1.0
+OUTRIDER 21 0.42000002
+KNIGHT 10 0.67
+PAVISE_GUARD 3 1.3
+end
+
+wave 6 scalar 1.0
+OUTRIDER 23 0.35
+PALADIN 11 0.6
+GOLDEN_PRINCE 3 1.3
+end
+
+wave 7 scalar 1.0
+KNIGHT 25 0.35
+PALADIN 12 0.6
+PAVISE_GUARD 3 1.3
+KNIGHT_LIEUTENANT 2 1.7
+end
+
+wave 8 scalar 1.0
+PALADIN 27 0.35
+GOLDEN_PRINCE 13 0.6
+GOLDEN_PRINCE 3 1.3
+end
+
+wave 9 scalar 1.0
+PALADIN 29 0.35
+PAVISE_GUARD 14 0.6
+PAVISE_GUARD 3 1.3
+KNIGHT_LIEUTENANT 2 1.7
+BOSS_GENERAL 1 2.5
+end

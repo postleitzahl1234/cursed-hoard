@@ -1,0 +1,43 @@
+# Cursed Hoard authored waves v1
+version 1
+waves 7
+
+wave 1 scalar 1.0
+ACOLYTE 9 0.78
+end
+
+wave 2 scalar 1.0
+FLAGELLANT 11 0.71
+BARD 5 0.96
+end
+
+wave 3 scalar 1.0
+MONK 13 0.64
+BARD 6 0.89
+end
+
+wave 4 scalar 1.0
+BARD 15 0.56999993
+INQUISITOR 7 0.81999993
+SERAPH 2 1.3
+end
+
+wave 5 scalar 1.0
+WAR_CLERIC 17 0.49999997
+INQUISITOR 8 0.75
+TEMPLE_GUARD 2 1.3
+TEMPLAR 2 1.7
+end
+
+wave 6 scalar 1.0
+WAR_CLERIC 19 0.42999995
+TEMPLE_GUARD 9 0.67999995
+SERAPH 2 1.3
+end
+
+wave 7 scalar 1.0
+INQUISITOR 21 0.35999995
+TEMPLE_GUARD 10 0.60999995
+TEMPLE_GUARD 2 1.3
+TEMPLAR 2 1.7
+end

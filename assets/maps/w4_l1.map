@@ -1,0 +1,367 @@
+name w4_l1
+base tile_garden_lawn
+c 2 0 t tile_garden_topiary
+c 3 0 t tile_garden_topiary
+c 5 0 t tile_garden_flowerbed
+c 13 0 t tile_garden_topiary
+c 18 0 t tile_garden_topiary
+c 27 0 t tile_garden_canal
+c 35 0 t tile_garden_topiary
+c 5 1 t tile_garden_flowerbed
+c 9 1 t tile_garden_flowerbed
+c 19 1 t tile_garden_topiary
+c 23 1 t tile_garden_lawn d obstacle_tree_willow
+c 27 1 t tile_garden_canal
+c 28 1 t tile_garden_topiary
+c 3 2 t tile_garden_flowerbed
+c 19 2 t tile_garden_lawn d bld_garden_power_station
+c 20 2 t tile_garden_flowerbed
+c 25 2 t tile_garden_flowerbed
+c 27 2 t tile_garden_canal
+c 30 2 t tile_garden_lawn d bld_garden_power_station
+c 11 3 t tile_garden_topiary
+c 15 3 t tile_garden_topiary
+c 26 3 t tile_garden_flowerbed
+c 27 3 t tile_garden_canal
+c 38 3 t tile_garden_topiary
+c 1 4 t tile_garden_topiary
+c 4 4 t tile_garden_flowerbed
+c 14 4 t tile_garden_topiary
+c 16 4 t tile_garden_path o PATH
+c 17 4 t tile_garden_path o PATH
+c 18 4 t tile_garden_path o PATH
+c 19 4 t tile_garden_path o PATH
+c 20 4 t tile_garden_path o PATH
+c 21 4 t tile_garden_path o PATH
+c 22 4 t tile_garden_path o PATH
+c 23 4 t tile_garden_path o PATH
+c 24 4 t tile_garden_path o PATH
+c 25 4 t tile_garden_path o PATH
+c 26 4 t tile_garden_path o PATH
+c 27 4 t tile_garden_path o PATH
+c 28 4 t tile_garden_path o PATH
+c 29 4 t tile_garden_path o PATH
+c 30 4 t tile_garden_path o PATH
+c 31 4 t tile_garden_path o PATH
+c 32 4 t tile_garden_path o PATH
+c 33 4 t tile_garden_path o PATH
+c 34 4 t tile_garden_path o PATH
+c 35 4 t tile_garden_path o PATH
+c 36 4 t tile_garden_topiary
+c 5 5 t tile_garden_flowerbed
+c 8 5 t tile_garden_topiary
+c 16 5 t tile_garden_path o PATH
+c 17 5 t tile_garden_path o PATH
+c 18 5 t tile_garden_path o PATH
+c 19 5 t tile_garden_path o PATH
+c 20 5 t tile_garden_path o PATH
+c 21 5 t tile_garden_path o PATH
+c 22 5 t tile_garden_path o PATH
+c 23 5 t tile_garden_path o PATH
+c 24 5 t tile_garden_path o PATH
+c 25 5 t tile_garden_path o PATH
+c 26 5 t tile_garden_path o PATH
+c 27 5 t tile_garden_path o PATH
+c 28 5 t tile_garden_path o PATH
+c 29 5 t tile_garden_path o PATH
+c 30 5 t tile_garden_path o PATH
+c 31 5 t tile_garden_path o PATH
+c 32 5 t tile_garden_path o PATH
+c 33 5 t tile_garden_path o PATH
+c 34 5 t tile_garden_path o PATH
+c 35 5 t tile_garden_path o PATH
+c 0 6 t tile_garden_canal r 1
+c 1 6 t tile_garden_canal r 1
+c 2 6 t tile_garden_canal r 1
+c 3 6 t tile_garden_canal r 1
+c 4 6 t tile_garden_canal r 1
+c 5 6 t tile_garden_canal r 1
+c 6 6 t tile_garden_canal r 1
+c 7 6 t tile_garden_canal r 1
+c 8 6 t tile_garden_canal r 1
+c 9 6 t tile_garden_canal r 1
+c 10 6 t tile_garden_canal r 1
+c 11 6 t tile_garden_canal r 1
+c 12 6 t tile_garden_canal r 1
+c 13 6 t tile_garden_canal r 1
+c 14 6 t tile_garden_canal r 1
+c 15 6 t tile_garden_canal r 1
+c 16 6 t tile_garden_path o PATH
+c 17 6 t tile_garden_path o PATH
+c 18 6 t tile_garden_canal r 1
+c 19 6 t tile_garden_canal r 1
+c 20 6 t tile_garden_canal r 1
+c 21 6 t tile_garden_canal r 1
+c 22 6 t tile_garden_canal r 1
+c 23 6 t tile_garden_canal r 1
+c 24 6 t tile_garden_canal r 1
+c 25 6 t tile_garden_canal r 1
+c 26 6 t tile_garden_canal r 1
+c 27 6 t tile_garden_canal
+c 28 6 t tile_garden_canal r 1
+c 29 6 t tile_garden_canal r 1
+c 30 6 t tile_garden_canal r 1
+c 31 6 t tile_garden_canal r 1
+c 32 6 t tile_garden_canal r 1
+c 33 6 t tile_garden_canal r 1
+c 34 6 t tile_garden_path o PATH
+c 35 6 t tile_garden_path o PATH
+c 36 6 t tile_garden_canal r 1
+c 37 6 t tile_garden_canal r 1
+c 38 6 t tile_garden_canal r 1
+c 39 6 t tile_garden_canal r 1
+c 7 7 t tile_garden_flowerbed
+c 8 7 t tile_garden_topiary
+c 13 7 t tile_garden_lawn d obstacle_tree_blossom
+c 16 7 t tile_garden_path o PATH
+c 17 7 t tile_garden_path o PATH
+c 18 7 t tile_garden_lawn d obstacle_tree_willow
+c 19 7 t tile_garden_topiary d obstacle_tree_blossom
+c 20 7 t tile_garden_lawn d obstacle_tree_willow
+c 26 7 t tile_garden_topiary
+c 27 7 t tile_garden_canal
+c 31 7 t tile_garden_lawn d obstacle_tree_blossom
+c 34 7 t tile_garden_path o PATH
+c 35 7 t tile_garden_path o PATH
+c 37 7 t tile_garden_lawn d obstacle_tree_willow
+c 39 7 t tile_garden_topiary
+c 1 8 t tile_garden_gearworks
+c 9 8 t tile_garden_lawn d bld_gold_mine_t1
+c 16 8 t tile_garden_path o PATH
+c 17 8 t tile_garden_path o PATH
+c 27 8 t tile_garden_canal
+c 32 8 t tile_garden_lawn d obstacle_tree_blossom
+c 34 8 t tile_garden_path o PATH
+c 35 8 t tile_garden_path o PATH
+c 37 8 t tile_garden_lawn d obstacle_tree_blossom
+c 38 8 t tile_garden_flowerbed
+c 1 9 t tile_garden_topiary d obstacle_tree_willow
+c 2 9 t tile_garden_parterre
+c 12 9 t tile_garden_topiary
+c 13 9 t tile_garden_topiary
+c 16 9 t tile_garden_path o PATH
+c 17 9 t tile_garden_path o PATH
+c 27 9 t tile_garden_canal
+c 34 9 t tile_garden_path o PATH
+c 35 9 t tile_garden_path o PATH
+c 0 10 t tile_garden_gearworks
+c 1 10 t tile_garden_parterre
+c 2 10 t tile_garden_parterre
+c 7 10 t tile_garden_topiary d bld_garden_power_station
+c 13 10 t tile_garden_lawn d bld_garden_power_station
+c 14 10 t tile_garden_topiary
+c 15 10 t tile_garden_topiary
+c 16 10 t tile_garden_path o PATH
+c 17 10 t tile_garden_path o PATH
+c 18 10 t tile_garden_lawn d obstacle_tree_willow
+c 20 10 t tile_garden_flowerbed
+c 27 10 t tile_garden_canal
+c 30 10 t tile_garden_flowerbed
+c 34 10 t tile_garden_path o PATH
+c 35 10 t tile_garden_path o PATH
+c 39 10 t tile_garden_topiary
+c 0 11 t tile_garden_parterre
+c 1 11 t tile_garden_gearworks
+c 2 11 t tile_garden_parterre
+c 4 11 t tile_garden_flowerbed
+c 11 11 t tile_garden_lawn d obstacle_tree_blossom
+c 16 11 t tile_garden_path o PATH
+c 17 11 t tile_garden_path o PATH
+c 18 11 t tile_garden_topiary
+c 27 11 t tile_garden_canal
+c 31 11 t tile_garden_lawn d bld_garden_power_station
+c 34 11 t tile_garden_path o PATH
+c 35 11 t tile_garden_path o PATH
+c 37 11 t tile_garden_flowerbed
+c 0 12 t tile_garden_path o SPAWN
+c 1 12 t tile_garden_path o PATH
+c 2 12 t tile_garden_path o PATH
+c 3 12 t tile_garden_path o PATH
+c 4 12 t tile_garden_path o PATH
+c 5 12 t tile_garden_path o PATH
+c 6 12 t tile_garden_path o PATH
+c 7 12 t tile_garden_path o PATH
+c 8 12 t tile_garden_path o PATH
+c 9 12 t tile_garden_path o PATH
+c 10 12 t tile_garden_path o PATH
+c 11 12 t tile_garden_path o PATH
+c 12 12 t tile_garden_path o PATH
+c 13 12 t tile_garden_path o PATH
+c 14 12 t tile_garden_path o PATH
+c 15 12 t tile_garden_path o PATH
+c 16 12 t tile_garden_path o PATH
+c 17 12 t tile_garden_path o PATH
+c 19 12 t tile_garden_lawn d obstacle_tree_blossom
+c 26 12 t tile_garden_lawn d obstacle_tree_willow
+c 27 12 t tile_garden_canal
+c 34 12 t tile_garden_path o PATH
+c 35 12 t tile_garden_path o PATH
+c 0 13 t tile_garden_path o PATH
+c 1 13 t tile_garden_path o PATH
+c 2 13 t tile_garden_path o PATH
+c 3 13 t tile_garden_path o PATH
+c 4 13 t tile_garden_path o PATH
+c 5 13 t tile_garden_path o PATH
+c 6 13 t tile_garden_path o PATH
+c 7 13 t tile_garden_path o PATH
+c 8 13 t tile_garden_path o PATH
+c 9 13 t tile_garden_path o PATH
+c 10 13 t tile_garden_path o PATH
+c 11 13 t tile_garden_path o PATH
+c 12 13 t tile_garden_path o PATH
+c 13 13 t tile_garden_path o PATH
+c 14 13 t tile_garden_path o PATH
+c 15 13 t tile_garden_path o PATH
+c 16 13 t tile_garden_path o PATH
+c 17 13 t tile_garden_path o PATH
+c 22 13 t tile_garden_flowerbed
+c 27 13 t tile_garden_canal
+c 30 13 t tile_garden_lawn d obstacle_tree_blossom
+c 31 13 t tile_garden_topiary d obstacle_tree_blossom
+c 32 13 t tile_garden_flowerbed
+c 34 13 t tile_garden_path o PATH
+c 35 13 t tile_garden_path o PATH
+c 36 13 t tile_garden_lawn d obstacle_tree_willow
+c 0 14 t tile_garden_gearworks
+c 1 14 t tile_garden_gearworks
+c 2 14 t tile_garden_parterre
+c 3 14 t tile_garden_parterre
+c 4 14 t tile_garden_gearworks
+c 5 14 t tile_garden_gearworks
+c 7 14 t tile_garden_parterre
+c 21 14 t tile_garden_flowerbed
+c 27 14 t tile_garden_canal
+c 28 14 t tile_garden_flowerbed d bld_garden_laboratory
+c 31 14 t tile_garden_flowerbed
+c 32 14 t tile_garden_flowerbed d obstacle_tree_blossom
+c 34 14 t tile_garden_path o PATH
+c 35 14 t tile_garden_path o PATH
+c 0 15 t tile_garden_parterre
+c 1 15 t tile_garden_parterre
+c 2 15 t tile_garden_gearworks
+c 3 15 t tile_garden_gearworks
+c 4 15 t tile_garden_gearworks
+c 5 15 t tile_garden_parterre
+c 6 15 t tile_garden_gearworks
+c 7 15 t tile_garden_gearworks
+c 16 15 t tile_garden_flowerbed d obstacle_tree_willow
+c 17 15 t tile_garden_lawn d obstacle_tree_blossom
+c 27 15 t tile_garden_canal
+c 31 15 t tile_garden_lawn d obstacle_tree_blossom
+c 34 15 t tile_garden_path o PATH
+c 35 15 t tile_garden_path o PATH
+c 0 16 t tile_garden_gearworks
+c 1 16 t tile_garden_parterre
+c 2 16 t tile_garden_parterre
+c 3 16 t tile_garden_gearworks
+c 4 16 t tile_garden_parterre
+c 5 16 t tile_garden_parterre
+c 6 16 t tile_garden_gearworks
+c 7 16 t tile_garden_gearworks d bld_mana_well_t2
+c 8 16 t tile_garden_gearworks
+c 11 16 t tile_garden_flowerbed
+c 21 16 t tile_garden_path o PATH
+c 22 16 t tile_garden_path o CAVE
+c 23 16 t tile_garden_path o PATH
+c 24 16 t tile_garden_path o PATH
+c 25 16 t tile_garden_path o PATH
+c 26 16 t tile_garden_path o PATH
+c 27 16 t tile_garden_path o PATH
+c 28 16 t tile_garden_path o PATH
+c 29 16 t tile_garden_path o PATH
+c 30 16 t tile_garden_path o PATH
+c 31 16 t tile_garden_path o PATH
+c 32 16 t tile_garden_path o PATH
+c 33 16 t tile_garden_path o PATH
+c 34 16 t tile_garden_path o PATH
+c 35 16 t tile_garden_path o PATH
+c 0 17 t tile_garden_gearworks
+c 1 17 t tile_garden_gearworks
+c 2 17 t tile_garden_gearworks
+c 3 17 t tile_garden_parterre
+c 4 17 t tile_garden_gearworks
+c 5 17 t tile_garden_gearworks
+c 6 17 t tile_garden_parterre
+c 7 17 t tile_garden_parterre
+c 8 17 t tile_garden_parterre
+c 19 17 t tile_garden_flowerbed
+c 21 17 t tile_garden_path o PATH
+c 22 17 t tile_garden_path o PATH
+c 23 17 t tile_garden_path o PATH
+c 24 17 t tile_garden_path o PATH
+c 25 17 t tile_garden_path o PATH
+c 26 17 t tile_garden_path o PATH
+c 27 17 t tile_garden_path o PATH
+c 28 17 t tile_garden_path o PATH
+c 29 17 t tile_garden_path o PATH
+c 30 17 t tile_garden_path o PATH
+c 31 17 t tile_garden_path o PATH
+c 32 17 t tile_garden_path o PATH
+c 33 17 t tile_garden_path o PATH
+c 34 17 t tile_garden_path o PATH
+c 35 17 t tile_garden_path o PATH
+c 0 18 t tile_garden_parterre
+c 1 18 t tile_garden_parterre
+c 2 18 t tile_garden_parterre
+c 3 18 t tile_garden_gearworks
+c 4 18 t tile_garden_parterre
+c 5 18 t tile_garden_gearworks
+c 6 18 t tile_garden_gearworks
+c 7 18 t tile_garden_parterre
+c 8 18 t tile_garden_parterre
+c 9 18 t tile_garden_parterre
+c 10 18 t tile_garden_gearworks
+c 11 18 t tile_garden_parterre
+c 14 18 t tile_garden_topiary
+c 16 18 t tile_garden_topiary
+c 27 18 t tile_garden_canal
+c 0 19 t tile_garden_gearworks
+c 1 19 t tile_garden_parterre
+c 2 19 t tile_garden_parterre
+c 3 19 t tile_garden_parterre
+c 4 19 t tile_garden_parterre
+c 5 19 t tile_garden_parterre
+c 6 19 t tile_garden_parterre
+c 7 19 t tile_garden_gearworks
+c 8 19 t tile_garden_parterre
+c 9 19 t tile_garden_gearworks
+c 10 19 t tile_garden_gearworks
+c 11 19 t tile_garden_parterre
+c 27 19 t tile_garden_canal
+c 29 19 t tile_garden_topiary
+c 31 19 t tile_garden_flowerbed
+c 38 19 t tile_garden_topiary
+c 39 19 t tile_garden_topiary
+c 0 20 t tile_garden_parterre
+c 1 20 t tile_garden_parterre
+c 2 20 t tile_garden_parterre
+c 3 20 t tile_garden_parterre
+c 4 20 t tile_garden_parterre
+c 5 20 t tile_garden_gearworks
+c 6 20 t tile_garden_gearworks
+c 7 20 t tile_garden_gearworks
+c 8 20 t tile_garden_gearworks
+c 9 20 t tile_garden_parterre
+c 10 20 t tile_garden_gearworks
+c 11 20 t tile_garden_gearworks
+c 12 20 t tile_garden_gearworks
+c 14 20 t tile_garden_flowerbed
+c 17 20 t tile_garden_topiary
+c 27 20 t tile_garden_canal
+c 28 20 t tile_garden_topiary
+c 36 20 t tile_garden_topiary
+c 0 21 t tile_garden_gearworks
+c 1 21 t tile_garden_parterre
+c 2 21 t tile_garden_gearworks
+c 3 21 t tile_garden_parterre
+c 4 21 t tile_garden_parterre
+c 5 21 t tile_garden_gearworks
+c 6 21 t tile_garden_parterre
+c 7 21 t tile_garden_gearworks
+c 8 21 t tile_garden_gearworks
+c 9 21 t tile_garden_parterre
+c 10 21 t tile_garden_gearworks
+c 11 21 t tile_garden_gearworks
+c 15 21 t tile_garden_flowerbed
+c 27 21 t tile_garden_canal
+c 39 21 t tile_garden_flowerbed
